@@ -1,8 +1,52 @@
-# React + Vite
+<h1 align="center"> Teste Técnico | Primi Tecnologia </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias
 
-Currently, two official plugins are available:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ReactJs (useSate, useEffect)
+- CSS
+- Json Server
+- API Google Maps
+
+##  Pendências
+
+- Adicionar carrinho de compras
+- Integrar localização das lojas com o Google Maps
+
+## Para rodar o projeto:
+
+Clonar repositório
+
+```bash
+git clone https://github.com/Hiago-Maitan/Primi
+```
+
+Instalar dependências
+
+```bash
+npm install
+```
+
+Rodar o projeto
+
+```bash
+npm run dev
+```
+
+Rodar servidor do Json Server
+
+```bash
+npx json-server db.json
+```
+
+O site normalmente sobe em http://localhost:5173/ e o json server em http://localhost:3000/games 
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com ♥ by Hiago Maitan
